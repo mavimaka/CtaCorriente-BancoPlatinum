@@ -1,0 +1,10 @@
+# Ignorar directorio de compilación de Maven
+target/
+
+# Ignorar archivos de configuración interna de Eclipse
+.settings/
+.classpath
+.project
+
+# Ignorar archivos de registro de errores
+*.log
