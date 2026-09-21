@@ -9,7 +9,7 @@ public class ConexionBD {
     // Parámetros de conexión a MySQL local
     private static final String URL = "jdbc:mysql://localhost:3306/Cuentas_clientes?useSSL=false&serverTimezone=UTC";
     private static final String USUARIO = "root"; 
-    private static final String CLAVE = "admin123"; 
+    private static final String CLAVE = ""; 
 
     public static Connection getConexion() throws SQLException {
         try {
